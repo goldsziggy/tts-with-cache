@@ -7,7 +7,7 @@ The purpose of this project is to proxy a TTS request to a vendor application, t
 
 ## Sample 
 
-![Video Example](https://raw.githubusercontent.com/goldsziggy/readme-media/master/win-tab-tileboard.mov)
+![Video Example](https://youtu.be/IO0haVcHIg8)
 
 
 ## Sample Run Command for Local
