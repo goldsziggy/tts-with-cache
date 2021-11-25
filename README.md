@@ -2,6 +2,14 @@
 
 The purpose of this project is to proxy a TTS request to a vendor application, taking the response and storing into a redis cache.  This will help with innevidable costs.
 
+## Architechure
+![Flow diagram](https://raw.githubusercontent.com/goldsziggy/readme-media/master/Home%20Assistant%20Tablet%20Flow.png)
+
+## Sample 
+
+![Video Example](https://raw.githubusercontent.com/goldsziggy/readme-media/master/win-tab-tileboard.mov)
+
+
 ## Sample Run Command for Local
 
 ```
