@@ -1,4 +1,5 @@
-FROM node:alpine3.10
+FROM node:14-alpine
+RUN apk add --no-cache python3 py3-pip make
 
 ARG TTS_VENDOR
 
@@ -18,6 +19,7 @@ WORKDIR /tmp/app
 
 # Install app dependencies
 COPY package.json /tmp/app
+COPY package-lock.json /tmp/app
 RUN npm ci
 
 # Bundle app source

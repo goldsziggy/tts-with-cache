@@ -52,6 +52,7 @@ const getVendorVoiceStream = async ({
   logger,
   message,
   tts_vendor,
+  redis,
   redisCacheKey,
 }) => {
   let stream = "";

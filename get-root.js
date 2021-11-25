@@ -22,6 +22,7 @@ module.exports = async (req, res) => {
       logger,
       message: req.query.text,
       tts_vendor,
+      redis,
       redisCacheKey,
     });
     return res.send(stream);
