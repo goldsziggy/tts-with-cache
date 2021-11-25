@@ -49,6 +49,7 @@ const getReplicaStudioVoice = ({ logger, message, access_token }) => {
   params.append("quality", "high");
   params.append("txt", message);
   params.append("speaker_id", process.env.REPLICA_STUDIO_SPEAKER_ID);
+  params.append("extension", "mp3");
 
   return axios
     .get("https://api.replicastudios.com/speech", {
